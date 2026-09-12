@@ -6,6 +6,11 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <title>CHANU PHOTO CINEMA | Life, framed and filmed</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/favicon.png" />
+  <meta property="og:title" content="CHANU PHOTO CINEMA | Life, framed and filmed" />
+  <meta property="og:description" content="Cinematography and fine-art photography atelier directed by Chanuiel. Concerts, weddings, university graduations, and editorial portraiture." />
+  <meta property="og:image" content="assets/logo-wordmark.png" />
   <link href="https://fonts.googleapis.com" rel="preconnect" />
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
   <link
@@ -153,16 +158,19 @@
   <header
     class="fixed top-0 left-0 right-0 w-full z-50 bg-white/90 backdrop-blur-xl border-b border-outline-variant/60 shadow-[0_4px_24px_rgba(0,0,0,0.03)]">
     <div class="h-20 w-full px-4 sm:px-6 lg:px-margin-desktop flex items-center justify-between gap-3 sm:gap-6">
-      <div class="flex items-center gap-2.5 sm:gap-3.5 min-w-0">
+      <a class="flex items-center gap-2.5 sm:gap-3.5 min-w-0 group" data-path="portfolio" href="#">
         <div
-          class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container font-headline-sm font-bold shadow-xs shrink-0">
-          <span class="material-symbols-outlined text-[18px] sm:text-[20px]">videocam</span></div>
-        <div class="flex flex-col justify-center min-w-0"><a
-            class="font-headline-sm text-[15px] sm:text-headline-sm tracking-wide text-on-surface hover:text-primary transition-colors uppercase font-semibold truncate"
-            data-path="portfolio" href="#">CHANU PHOTO CINEMA</a><span
+          class="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-surface-container-low border border-outline-variant/60 flex items-center justify-center p-1.5 shadow-xs shrink-0 group-hover:border-primary/50 transition-colors">
+          <img src="assets/logo-mark.png" alt="CHANU Logo" class="w-full h-full object-contain" />
+        </div>
+        <div class="flex flex-col justify-center min-w-0">
+          <span
+            class="font-headline-sm text-[15px] sm:text-headline-sm tracking-wide text-on-surface group-hover:text-primary transition-colors uppercase font-semibold truncate">CHANU PHOTO CINEMA</span>
+          <span
             class="font-label-sm text-[9px] sm:text-label-sm text-outline tracking-[0.16em] sm:tracking-[0.25em] uppercase -mt-0.5 font-semibold hidden sm:block truncate">Life,
-            framed and filmed</span></div>
-      </div>
+            framed and filmed</span>
+        </div>
+      </a>
       <nav class="hidden xl:flex items-center gap-8 shrink-0" data-active-classes="text-primary font-bold"><a
           aria-current="page" class="uppercase transition-colors text-primary font-bold text-[12px] tracking-widest"
           data-path="portfolio" href="#">Portfolio</a><a
@@ -216,7 +224,7 @@
           <!-- Technical Folio Indicator Badge -->
           <div
             class="inline-flex items-center gap-2.5 px-4 py-1.5 mb-6 rounded-full bg-white/95 border border-outline-variant/80 shadow-sm backdrop-blur-md">
-            <span class="w-2.5 h-2.5 rounded-full bg-primary animate-pulse"></span>
+            <img src="assets/logo-mark.png" alt="Chanu Logo" class="w-4 h-4 object-contain" />
             <span class="font-label-sm text-label-sm uppercase tracking-[0.25em] text-primary font-bold">PHOTO • VIDEO •
               STORY // WEDDINGS • BIRTHDAYS • EVENTS • LIFESTYLE</span>
           </div>
@@ -1762,9 +1770,9 @@
       <section class="w-full bg-background py-8 border-t border-outline-variant/50">
         <div
           class="max-w-7xl mx-auto px-6 lg:px-margin-desktop flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
-          <div class="flex items-center gap-3">
-            <span class="font-headline-sm text-headline-sm text-primary uppercase font-bold">CHANU</span>
-            <span class="text-outline/40">|</span>
+          <div class="flex flex-col sm:flex-row items-center gap-3 sm:gap-4">
+            <img src="assets/logo-wordmark.png" alt="CHANU PHOTO CINEMA" class="h-6 sm:h-7 w-auto object-contain" />
+            <span class="text-outline/40 hidden sm:inline">|</span>
             <span class="font-label-sm text-label-sm text-outline uppercase tracking-widest font-semibold">Life, framed
               and filmed. Directed by Chanuiel.</span>
           </div>
@@ -1786,9 +1794,10 @@
         <div class="space-y-space-sm">
           <div class="flex items-center gap-3">
             <div
-              class="w-8 h-8 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container font-headline-sm font-bold shadow-xs">
-              <span class="material-symbols-outlined text-[16px]">videocam</span></div><span
-              class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wide font-bold">CHANU</span>
+              class="w-9 h-9 rounded-lg bg-white border border-outline-variant/70 flex items-center justify-center p-1.5 shadow-xs shrink-0">
+              <img src="assets/logo-mark.png" alt="CHANU Emblem" class="w-full h-full object-contain" />
+            </div>
+            <img src="assets/logo-wordmark.png" alt="CHANU PHOTO CINEMA" class="h-6 sm:h-7 w-auto object-contain" />
           </div>
           <p class="font-body-sm text-body-sm text-outline max-w-xs leading-relaxed">CHANU PHOTO CINEMA by Chanuiel
             Films. Life, framed and filmed. Photo + Video Production crafting visuals that tell your story. Based in
@@ -1870,8 +1879,11 @@
           <img id="photo-modal-img" src="" alt="" class="max-h-[78vh] w-auto max-w-full object-contain rounded-lg" />
         </div>
         <!-- Photo Details Caption -->
-        <div class="mt-3 text-center space-y-1 px-4">
-          <span id="photo-modal-category" class="font-label-sm text-[11px] uppercase tracking-[0.2em] text-primary-fixed font-bold"></span>
+        <div class="mt-3 text-center space-y-1 px-4 flex flex-col items-center">
+          <div class="flex items-center gap-2">
+            <img src="assets/logo-mark-white.png" alt="CHANU" class="w-3.5 h-4 object-contain opacity-85" />
+            <span id="photo-modal-category" class="font-label-sm text-[11px] uppercase tracking-[0.2em] text-primary-fixed font-bold"></span>
+          </div>
           <h3 id="photo-modal-title" class="font-headline-sm text-base sm:text-lg text-white font-medium"></h3>
         </div>
       </div>
@@ -1886,7 +1898,7 @@
       <!-- Modal Header -->
       <div class="flex items-center justify-between px-5 py-3.5 border-b border-outline-variant/60 bg-surface">
         <div class="flex items-center gap-2.5">
-          <span class="w-2.5 h-2.5 rounded-full bg-primary animate-pulse"></span>
+          <img src="assets/logo-mark.png" alt="CHANU" class="w-4 h-5 object-contain" />
           <span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold"
             id="modal-reel-title">CHANU CINEMA REEL</span>
         </div>
@@ -1909,8 +1921,8 @@
         <!-- Subtle Loader while Reel connects -->
         <div id="modal-loading-state"
           class="absolute inset-0 flex flex-col items-center justify-center bg-black/70 text-white pointer-events-none transition-opacity duration-300">
-          <span class="material-symbols-outlined text-4xl text-primary animate-spin mb-3">progress_activity</span>
-          <span class="font-label-sm uppercase tracking-widest text-sm font-semibold">Streaming Cinema Reel...</span>
+          <img src="assets/logo-mark-white.png" alt="Streaming" class="w-10 h-12 object-contain animate-pulse mb-3" />
+          <span class="font-label-sm uppercase tracking-widest text-sm font-semibold text-white/90">Streaming Cinema Reel...</span>
         </div>
       </div>
       <!-- Modal Footer with Quick Direct Option -->
